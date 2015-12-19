@@ -17,4 +17,7 @@ class BinaryTreeTest < Minitest::Test
     assert_equal BinaryTree, pile.class
   end
 
+  def test_other
+    skip
+  end
 end
